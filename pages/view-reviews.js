@@ -38,7 +38,6 @@ const Reviews = () => {
     return () => unsubscribe()
   }, [])
 
-
   if (loading) {
     return (
       <Center marginTop={20}>
