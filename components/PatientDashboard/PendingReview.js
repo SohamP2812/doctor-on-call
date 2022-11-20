@@ -24,7 +24,7 @@ export default function PendingReview({ pendingReview }) {
     }
 
     fetchDoctor()
-  })
+  }, [])
 
   return (
     <Flex
