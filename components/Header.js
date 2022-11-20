@@ -105,7 +105,7 @@ export default function Header() {
             </NextLink>
             <NextLink href={'/view-reviews'} passHref>
               <Button fontSize={'sm'} fontWeight={400}>
-                View Reviews
+                View Doctor Reviews
               </Button>
             </NextLink>
             </>
